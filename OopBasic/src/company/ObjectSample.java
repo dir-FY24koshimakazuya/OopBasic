@@ -37,5 +37,13 @@ public class ObjectSample {
             ((Engineer) projectManager).developSoftware();
         }
         
+        System.out.println("");
+        //アルバイトインスタンスの作成
+        var pattimewoker= new ParttimeWorker("太田", department);
+        //実装したメソッドの呼び出し
+            ((Workable)employee).work();
+            ((Workable)engineer).work();
+            ((Workable)projectManager).work();
+            ((Workable)pattimewoker).work();
     }
 }
